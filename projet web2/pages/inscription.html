@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<title> Acceuil de l'agence  </title>
+<title> inscription  </title>
 <meta  name= "description" content="agence de transport public" />
 <meta name="keyword" content="transport, public,reserver,enligne,reservation,taxi,bus,train ,louage "/>
 <!--link js -->
@@ -78,7 +78,7 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
 <div class="container-fluid p-3 my-2">
         <div class="row">
 <div class="col-lg-12 col-md-12 col-sm-12">
-	<h1 class="abonnement">
+	<h1 class="abonnement"onmouseover="abonner();">
 								ABONNEMENT
                         </h1>
 	</div>
@@ -92,7 +92,7 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
 			<span class="client">
 								CLIENT
                         </span>
-						<form  method="post" action="abonnementClient.php" name="abonnementClient"onmouseover="abonner();">
+						<form  method="post" action="abonnementClient.php" name="abonnementClient">
                         <div class="row">
                             <div class="col-md-6 form-group">
                                 <label class="text" for="Nom" >Nom *</label>
@@ -179,7 +179,7 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
                             PARTENAIRE
                         </span>
                          <form  method="post" action="abonnementPar.php" name="abonnementPar" onsubmit="return controle(document.abonnementPar.nom,document.abonnementPar.prenom,document.abonnementPar.tel)" 
-                         onmouseover="abonner();">
+                         >
 					<div class="row">
                             <div class="col-md-6 form-group">
                                 <label class="text" for="Nom">Nom *</label>
